@@ -1,0 +1,72 @@
+/* ROOT */
+    :root {
+    --body: #0f172a;
+    --edge: #94a3b8;
+    --white: #ffffff;
+    --link: #38bdf8;
+    --darkblue: #1e293b;
+    --lightgreen: #15ae9d;
+    --darkgreen: #139183;
+    }
+/* ROOT */
+
+/* BODY */
+/* BODY */
+
+/* LOGOTEXT */
+    .ltext {
+        font-size: 90px;
+        width: 190px;
+    }
+    .logoapp {
+        width: 50px;
+    }
+/* BORDER */
+
+/* BORDER */
+    .border {
+        border: 2px solid var(--edge);
+    }
+/* BORDER */
+
+/* FONT */
+    .fontlink {
+        color: var(--link);
+        cursor: pointer;
+    }
+    .t-vlow {
+        font-size: 12px;
+    }
+/* FONT */
+
+/* BUTTON */
+    .button1 {
+      width: 100%;
+      padding: 12px;
+      background: var(--lightgreen);
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .button1:hover {
+      background: var(--darkgreen);
+    }
+    .button2 {
+      width: 100%;
+      padding: 12px;
+      background: var(--white);
+      border: none;
+      border-radius: 8px;
+      color: var(--lightgreen);
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+    }
+/* BUTTON */
+
+/* INPUT */
+
+/* INPUT */

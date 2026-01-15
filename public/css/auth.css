@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-frame {
+  width: 360px;
+  height: 640px;
+  border: 2px solid var(--edge);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background: var(--body);
+}
+
+.auth-card {
+  width: 85%;
+  text-align: center;
+  color: var(--white);
+}
+
+.input-group {
+  background: var(--darkblue);
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.input-group input {
+  width: 80%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--white);
+  font-size: 14px;
+}
+.input-group i {
+    color: var(--edge);
+    font-size: 1.2rem;
+    margin-right: 12px;
+}
+
+#overlay {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    backdrop-filter: blur(2px);
+}
+.bottom-sheet {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a2e;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    transition: bottom 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+    z-index: 20;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.3);
+}
+
+.bottom-sheet.active {
+    bottom: 0;
+}
+
+.sheet-handle {
+    width: 40px;
+    height: 4px;
+    background-color: #3aafa9;
+    border-radius: 2px;
+    margin: 0 auto 15px auto;
+}
